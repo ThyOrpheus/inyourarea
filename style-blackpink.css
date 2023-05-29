@@ -1,0 +1,311 @@
+.header{
+	background: url('Images/Header.jpg');
+	height: 896px;
+	background-size: cover;
+}
+
+.header-title{
+	margin: 0;
+	padding-top: 30%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	font-size: 2.5rem;
+	color: #595248;
+}
+
+.header-subtitle{
+	margin: 0;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3.5rem;
+	color: #A38A75;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 1% 5%;
+  overflow: hidden;
+	max-height: 65px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color: #1b191a;
+}
+
+li{
+	float: left;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.profile{
+	background-color: #B94870;
+	max-height: 46px;
+	border-radius: 50%;
+}
+
+.profile-icon{
+  max-height: 28px;
+	padding-left: 9px;
+}
+
+.disc{
+	background-color: #B94870;
+	max-height: 45px;
+	border-radius: 50%;
+}
+
+.disc-icon{
+  max-height: 35px;
+	padding-left: 5px;
+	padding-top: 1px;
+}
+
+.socmed-nav{
+	background-color: #B94870;
+	max-height: 46px;
+	border-radius: 50%;
+}
+
+.socmed-icon{
+  max-height: 30px;
+	padding-left: 7px;
+}
+
+.logo{
+	font-family: 'Abril Fatface';
+	color: white;
+	font-size: 1.5rem;
+	width: max-content;
+}
+
+.profile-title{
+	color: #DE5283;
+	font-family: 'Abril Fatface';
+	text-align: center;
+}
+
+.discography-title, .socmed-title{
+	color: #DE5283;
+	font-family: 'Abril Fatface';
+	text-align: center;
+	margin-top: 0;
+}
+
+.profile-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.profile1, .profile2, .profile3, .profile4{
+	background-color: #363131;
+	text-align: center;
+	border-radius: 5%;
+	margin: 0 10% 5% 10%;
+}
+
+.profile1-pic, .profile2-pic, .profile3-pic, .profile4-pic{
+	max-width: 90%;
+	height: auto;
+	padding: 10px 20px 0px 20px;
+}
+
+h2{
+	margin: 0;
+	color: white;
+	font-family: 'Caveat';
+	font-size: 2rem;
+	letter-spacing: .2rem;
+}
+
+.discography-grid{
+	display: grid;
+	grid-template-columns: 45% 45%;
+	justify-content: space-around;
+	margin: 0 10% 5% 10%;
+}
+
+.grid-item{
+	background-color: #363131;
+	border-radius: 10%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h3{
+	margin: 5px;
+	font-family: 'Zilla Slab';
+	color: white;
+	font-size: 1rem;
+}
+
+.youtube{
+	max-width: 20%;
+	height: auto;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+h4{
+	margin: 0;
+	display: inline-block;
+	color: white;
+	font-size: .8rem;
+}
+
+.album{
+	max-width: 80%;
+	height: auto;
+	padding-top: 10px;
+}
+
+.album-yt{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.socmed{
+	display: grid;
+	grid-template-columns: 15% 15% 15% 15% 15%;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10%;
+}
+
+.socmed-link{
+	max-width: 70%;
+	height: auto;
+	display: inline;
+}
+
+a{
+	text-align: center;
+}
+
+@media only screen and (min-width: 600px){
+	.header{
+		height: 1500px;
+	}
+
+	.header-title{
+		padding-top: 20%;
+		font-size: 5rem;
+	}
+	
+	.header-subtitle{
+		font-size: 6rem;
+	}
+
+	h1{
+		font-size: 3rem;
+	}
+
+	.logo{
+		font-size: 2rem;
+	}
+
+	h2{
+		font-size: 2.5rem;
+		letter-spacing: .3rem;
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
+
+	h4{
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (min-width: 850px){
+	.header{
+		background-image: url('Images/header2.jpg');
+		background-size: cover;
+		height: 700px;
+		max-width: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.header-title{
+		display: none;
+	}
+	
+	.header-subtitle{
+		display: none;
+	}
+	
+	ul{
+		padding: .5% 4%;
+	}
+
+	.profile-column{
+		display: grid;
+	grid-template-columns: 35% 35%;
+	justify-content: center;
+	}
+
+	.profile1-pic, .profile2-pic, .profile3-pic, .profile4-pic{
+		max-width: 90%;
+		height: auto;
+		padding: 10px 20px 0px 20px;
+	}
+
+	.discography-grid{
+		display: grid;
+		grid-template-columns: 23% 23% 23%;
+		justify-content: space-around;
+		margin: 0 10% 0 10%;
+	}
+
+	.discography-title{
+		padding-bottom: 2%;
+	}
+
+	h2{
+		font-size: 2rem;
+		letter-spacing: .2rem;
+	}
+
+	h3{
+		font-size: 1.1rem;
+	}
+
+	h4{
+		font-size: .8rem;
+	}
+
+	.socmed{
+		grid-template-columns: 10% 10% 10% 10% 10%;
+		margin-bottom: 5%;
+	}
+}
+
+@media only screen and (min-width: 1500px){
+	.header{
+		height: 900px;
+	}
+
+	.discography-title{
+		margin: 0;
+	}
+
+	.discography-grid{
+		display: grid;
+		grid-template-columns: 19% 19% 19% 19%;
+		justify-content: space-around;
+		margin: 0 10% 0 10%;
+	}
+
+	.socmed{
+		grid-template-columns: 5% 5% 5% 5% 5%;
+		margin-bottom: 5%;
+	}
+}
